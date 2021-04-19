@@ -14,9 +14,19 @@ public class SceneManager : MonoBehaviour
     {
         
     }
+    public void load_Learning_scene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+
+    public void load_visualization_scene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+    }
 
     public void QuitApplication()
     {
         Application.Quit();
     }
 }
+
