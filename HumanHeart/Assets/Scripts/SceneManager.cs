@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class SceneManager : MonoBehaviour
     {
         
     }
+    public void load_the_Index_scene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
     public void load_Learning_scene()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
@@ -23,7 +28,8 @@ public class SceneManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
-
+    
+   
     public void QuitApplication()
     {
         Application.Quit();
