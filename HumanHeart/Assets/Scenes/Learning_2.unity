@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &38253702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,8 +211,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -8.021307}
   m_LocalScale: {x: 0.08118324, y: 0.08118324, z: 0.08118324}
   m_Children:
-  - {fileID: 1707009761}
   - {fileID: 593519836}
+  - {fileID: 1707009761}
+  - {fileID: 2048496584}
   m_Father: {fileID: 543450652503589173}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -855,7 +856,7 @@ RectTransform:
   m_Children:
   - {fileID: 47677300}
   m_Father: {fileID: 38253705}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -905,28 +906,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1395433711}
-        m_MethodName: deactivate_WorldSpace_Canvas
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1395433711}
-        m_MethodName: deactivate_about_button
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 779233958}
         m_MethodName: Play
         m_Mode: 5
@@ -936,6 +915,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: About
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1395433711}
+        m_MethodName: deactivate_WorldSpace_Canvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &593519838
@@ -1068,23 +1058,14 @@ MonoBehaviour:
     machinePart: {fileID: 1429949941}
     viewPoint: {fileID: 1924615054}
     audioClip: {fileID: 8300000, guid: c09b4b38f06bbf24589d1e53e0c2fe9e, type: 3}
-    text: 'The human heart is an organ that pumps blood throughout the body via the
-      circulatory system, supplying oxygen and nutrients to the tissues and removing
-      carbon dioxide and other wastes.
-
-      The four main functions of the heart
-      are :-
-
-      -Pumping oxygenated blood to the other body parts.
-
-      -Pumping
-      hormones and other vital substances to different parts of the body.
-
-      -Receiving
-      deoxygenated blood and carrying metabolic waste products from the body and
-      pumping it to the lungs for oxygenation.
-
-      -Maintaining blood pressure.'
+    text: "The aorta is the largest artery in the body. The aorta begins at the top
+      of the left ventricle, the heart's muscular pumping chamber. The heart pumps
+      blood from the left ventricle into the aorta through the aortic valve. Three
+      leaflets on the aortic valve open and close with each heartbeat to allow one-way
+      flow of blood.\r\nThe aorta is a tube about a foot long and just over an inch
+      in diameter. The aorta is divided into four sections:\r\n\uF0D8\tThe ascending
+      aorta arises \r\n\uF0D8\tThe aortic arch curves over the heart \r\n\uF0D8\tThe
+      descending thoracic aorta \r\n\uF0D8\tThe abdominal aorta \r\n"
     source: {fileID: 0}
 --- !u!4 &779233959
 Transform:
@@ -1448,7 +1429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1769,7 +1750,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   world_Space_Canvas: {fileID: 38253701}
-  aboutButton: {fileID: 593519835}
 --- !u!4 &1395433712
 Transform:
   m_ObjectHideFlags: 0
@@ -2146,7 +2126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924615053}
   m_LocalRotation: {x: -0.3629375, y: 0.37222436, z: -0.16103369, w: -0.83892405}
-  m_LocalPosition: {x: 77.50599, y: 144.71136, z: -158.47108}
+  m_LocalPosition: {x: 102.8, y: 53.2, z: -175.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 962765179}
@@ -2269,6 +2249,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029676654}
   m_CullTransparentMesh: 0
+--- !u!1 &2048496583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048496584}
+  m_Layer: 5
+  m_Name: Arrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2048496584
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048496583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 38253705}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2144905520
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,7 +2579,7 @@ PrefabInstance:
     - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
@@ -2659,22 +2674,62 @@ PrefabInstance:
     - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 779233957}
+      objectReference: {fileID: 779233958}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1395433711}
     - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: deactivate_WorldSpace_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Aorta
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca3406de2a2e13d40961784df5dd30e6, type: 3}
