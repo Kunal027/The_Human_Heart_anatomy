@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &38253702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1064,6 +1064,28 @@ MonoBehaviour:
 
       -Maintaining blood pressure.'
     source: {fileID: 0}
+  - name: Aorta
+    machinePart: {fileID: 1429949941}
+    viewPoint: {fileID: 1924615054}
+    audioClip: {fileID: 8300000, guid: c09b4b38f06bbf24589d1e53e0c2fe9e, type: 3}
+    text: 'The human heart is an organ that pumps blood throughout the body via the
+      circulatory system, supplying oxygen and nutrients to the tissues and removing
+      carbon dioxide and other wastes.
+
+      The four main functions of the heart
+      are :-
+
+      -Pumping oxygenated blood to the other body parts.
+
+      -Pumping
+      hormones and other vital substances to different parts of the body.
+
+      -Receiving
+      deoxygenated blood and carrying metabolic waste products from the body and
+      pumping it to the lungs for oxygenation.
+
+      -Maintaining blood pressure.'
+    source: {fileID: 0}
 --- !u!4 &779233959
 Transform:
   m_ObjectHideFlags: 0
@@ -1216,6 +1238,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 616558418}
+  - {fileID: 1924615054}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2093,11 +2116,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904252205}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -568.7}
+  m_LocalPosition: {x: 0, y: 158, z: -701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1924615053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1924615054}
+  m_Layer: 0
+  m_Name: aorta_viewPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1924615054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924615053}
+  m_LocalRotation: {x: -0.3629375, y: 0.37222436, z: -0.16103369, w: -0.83892405}
+  m_LocalPosition: {x: 77.50599, y: 144.71136, z: -158.47108}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 962765179}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2004522344
 GameObject:
@@ -2602,6 +2655,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 779233957}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca3406de2a2e13d40961784df5dd30e6, type: 3}
