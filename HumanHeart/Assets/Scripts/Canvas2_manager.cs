@@ -28,4 +28,13 @@ public class Canvas2_manager : MonoBehaviour
     {
         world_Space_Canvas.SetActive(false);
     }
+    public void reset_Button()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+    }
+
+    public void Back_to_main_menu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
 }
