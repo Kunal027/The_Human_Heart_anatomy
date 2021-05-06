@@ -213,6 +213,8 @@ RectTransform:
   m_Children:
   - {fileID: 593519836}
   - {fileID: 1707009761}
+  - {fileID: 1419027139}
+  - {fileID: 8796079604583010921}
   - {fileID: 2048496584}
   m_Father: {fileID: 543450652503589173}
   m_RootOrder: 3
@@ -401,8 +403,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 19.15, y: -24.112}
-  m_SizeDelta: {x: 38.294453, y: 48.22329}
+  m_AnchoredPosition: {x: 24.62, y: -24.112}
+  m_SizeDelta: {x: 49.23489, y: 48.22329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &173975479
 MonoBehaviour:
@@ -571,6 +573,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301313633}
   m_CullTransparentMesh: 0
+--- !u!1 &314133611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314133612}
+  m_Layer: 0
+  m_Name: leftPulmonaryVenins_VP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &314133612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314133611}
+  m_LocalRotation: {x: -0.10966558, y: 0.20072752, z: -0.022618601, w: -0.9732267}
+  m_LocalPosition: {x: 320.69, y: -312.03, z: -105.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 962765179}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &341729744
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +704,205 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &463068277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 38253705}
+    m_Modifications:
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 124.786194
+      objectReference: {fileID: 0}
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 183.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957420, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Name
+      value: inferiorVenaCava_lebel&Buton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 258.82254
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 82.13666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -454.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -272.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395433711}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 779233958}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: deactivate_WorldSpace_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: InferiorVenaCava
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603631215068, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Text
+      value: Inferior Vena Cava
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca3406de2a2e13d40961784df5dd30e6, type: 3}
 --- !u!1 &526229058
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +981,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526229058}
   m_CullTransparentMesh: 0
+--- !u!1 &545054706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545054707}
+  m_Layer: 0
+  m_Name: SuperiorVenaCava_VP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545054707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545054706}
+  m_LocalRotation: {x: -0.31252334, y: -0.44264582, z: 0.16798466, w: -0.8235138}
+  m_LocalPosition: {x: -227, y: -311, z: -351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 962765179}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &564520012
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,8 +1045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.1, y: -0.3}
-  m_SizeDelta: {x: 33.39482, y: 34.1116}
+  m_AnchoredPosition: {x: 1.21, y: -0.3}
+  m_SizeDelta: {x: 38.10492, y: 34.1116}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564520014
 MonoBehaviour:
@@ -1067,6 +1328,46 @@ MonoBehaviour:
       aorta arises \r\n\uF0D8\tThe aortic arch curves over the heart \r\n\uF0D8\tThe
       descending thoracic aorta \r\n\uF0D8\tThe abdominal aorta \r\n"
     source: {fileID: 0}
+  - name: SuperiorVenaCava
+    machinePart: {fileID: 1429949941}
+    viewPoint: {fileID: 545054707}
+    audioClip: {fileID: 0}
+    text: "The superior vena cava is very important for the function of the cardiovascular
+      system since it largely contributes to the input of blood to the right atrium.
+      Any hypertensive process in the right half of the heart or the pulmonary circulation
+      retrogradely affects both superior and inferior venae cavae. This is important
+      since the veins are not adjusted to high pressures, which can result in forming
+      an aneurysm or even rupture of the wall of the SVC.\r"
+    source: {fileID: 0}
+  - name: InferiorVenaCava
+    machinePart: {fileID: 1429949941}
+    viewPoint: {fileID: 2044618254}
+    audioClip: {fileID: 0}
+    text: At the level of the fifth lumbar vertebra, just below the small of the
+      back, the two main veins from the legs, the common iliac veins, come together
+      to form it. It has a large number of tributaries between its point of origin
+      and its heart terminus, unlike the superior vena cava veins that absorb blood
+      from the loins' muscles and coverings, as well as the walls of the belly, the
+      sexual organs, the kidneys, and the liver, are among them. The inferior vena
+      cava ascends close to the backbone on its way to the heart. It passes through
+      the liver, forming a groove on the dorsal side, reaches the chest through a
+      diaphragm opening, and empties into the right atrium of the heart through a
+      non-valve opening below the point of entry for the superior vena cava.
+    source: {fileID: 0}
+  - name: leftpulmonaryveins
+    machinePart: {fileID: 1429949941}
+    viewPoint: {fileID: 314133612}
+    audioClip: {fileID: 0}
+    text: There are four pulmonary veins in the human body, all of which bind to
+      the left atrium of the heart. The pulmonary arteries carry oxygen-depleted
+      blood from the heart to the lungs. The blood returns to the heart through the
+      pulmonary veins until it has been oxygenated. The heart then pumps freshly
+      oxygenated blood throughout the body. Pulmonary veins differ from other veins
+      in the body in that they transport deoxygenated blood back to the heart from
+      the rest of the body. The left pulmonary veins bind to the left lung, and the
+      lungs are made up of hollow air sacs known as alveoli. This is the process
+      of removing oxygen from inhaled air. This also serves as a gas exchange system.
+    source: {fileID: 0}
 --- !u!4 &779233959
 Transform:
   m_ObjectHideFlags: 0
@@ -1220,6 +1521,9 @@ Transform:
   m_Children:
   - {fileID: 616558418}
   - {fileID: 1924615054}
+  - {fileID: 545054707}
+  - {fileID: 2044618254}
+  - {fileID: 314133612}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1301,6 +1605,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970409634}
   m_CullTransparentMesh: 0
+--- !u!1 &1003343496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1003343497}
+  - component: {fileID: 1003343499}
+  - component: {fileID: 1003343498}
+  m_Layer: 5
+  m_Name: lebelling_Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1003343497
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003343496}
+  m_LocalRotation: {x: -0, y: -0, z: -0.66784835, w: -0.7442974}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000061035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8796079604583010921}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -276.198}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -155.26007, y: -9.919922}
+  m_SizeDelta: {x: 24.794449, y: 75.97191}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1003343498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003343496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: e2100f81c7b2468439c0ca19ce01e0ae, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1003343499
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003343496}
+  m_CullTransparentMesh: 0
 --- !u!1 &1065032108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 38, y: -0.39999962}
+  m_AnchoredPosition: {x: 45.2, y: -0.39999962}
   m_SizeDelta: {x: -28, y: -3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065032110
@@ -1764,6 +2142,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1419027139 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 463068277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1429949941
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,6 +2241,215 @@ Transform:
   m_Father: {fileID: 543450652503589173}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1488373230
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 38253705}
+    m_Modifications:
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 147.26007
+      objectReference: {fileID: 0}
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 172.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 281188952006414344, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -46.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957420, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Name
+      value: SuperiorVenaCava_lebel&Buton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 212.97864
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 95.37897
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -477.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 192.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1395433711}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 779233958}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: deactivate_WorldSpace_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: SuperiorVenaCava
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603360957422, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603631215043, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -13.080261
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603631215043, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8796079603631215068, guid: ca3406de2a2e13d40961784df5dd30e6,
+        type: 3}
+      propertyPath: m_Text
+      value: Superior Vena Cava
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca3406de2a2e13d40961784df5dd30e6, type: 3}
 --- !u!1 &1669065047
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,10 +2566,10 @@ RectTransform:
   m_Father: {fileID: 341729748}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -148, y: 641}
-  m_SizeDelta: {x: 462.7276, y: 208.3601}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 228.3, y: -163}
+  m_SizeDelta: {x: 456.68304, y: 196.93604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1849990084
 MonoBehaviour:
@@ -2132,6 +2725,12 @@ Transform:
   m_Father: {fileID: 962765179}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &2003757699 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8796079603360957421, guid: ca3406de2a2e13d40961784df5dd30e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1488373230}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2004522344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,6 +2848,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029676654}
   m_CullTransparentMesh: 0
+--- !u!1 &2044618253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044618254}
+  m_Layer: 0
+  m_Name: inferiorVenaCava_VP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2044618254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044618253}
+  m_LocalRotation: {x: -0.08568997, y: -0.14414929, z: 0.012529076, w: -0.9857593}
+  m_LocalPosition: {x: -108, y: -902, z: -320}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 962765179}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048496583
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2906,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 38253705}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2414,6 +3043,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144905520}
   m_CullTransparentMesh: 0
+--- !u!222 &159688154611280890
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917054019914935940}
+  m_CullTransparentMesh: 0
+--- !u!224 &281188953200148876
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917054019914935940}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8227421, w: -0.568415}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000061035156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8796079604583010921}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -249.28}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -165.1098, y: -29.069962}
+  m_SizeDelta: {x: 17.474672, y: 94.79695}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &543450652503589173
 Transform:
   m_ObjectHideFlags: 0
@@ -2475,6 +3131,35 @@ Transform:
   m_Father: {fileID: 543450652503589173}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &4549841635756983716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6917054019914935940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: e2100f81c7b2468439c0ca19ce01e0ae, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &5890259849390445054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2487,6 +3172,24 @@ GameObject:
   - component: {fileID: 7774439249679740518}
   m_Layer: 0
   m_Name: Heart_XSection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6917054019914935940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 281188953200148876}
+  - component: {fileID: 159688154611280890}
+  - component: {fileID: 4549841635756983716}
+  m_Layer: 5
+  m_Name: lebelling_Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2733,3 +3436,224 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca3406de2a2e13d40961784df5dd30e6, type: 3}
+--- !u!1 &8796079604313243718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8796079604313243719}
+  - component: {fileID: 8796079604313243737}
+  - component: {fileID: 8796079604313243736}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8796079604313243719
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604313243718}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8796079604583010921}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8796079604313243736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604313243718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e35bada8ba70466478e8a937605ef864, type: 3}
+    m_FontSize: 33
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Left pulmonary Veins
+--- !u!222 &8796079604313243737
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604313243718}
+  m_CullTransparentMesh: 0
+--- !u!1 &8796079604583010920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8796079604583010921}
+  - component: {fileID: 8796079604583010924}
+  - component: {fileID: 8796079604583010923}
+  - component: {fileID: 8796079604583010922}
+  m_Layer: 5
+  m_Name: leftPulmonaryVeins_lebel&Buton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8796079604583010921
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604583010920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 168.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8796079604313243719}
+  - {fileID: 281188953200148876}
+  - {fileID: 1003343497}
+  m_Father: {fileID: 38253705}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 448.96, y: 194.81992}
+  m_SizeDelta: {x: 242.78003, y: 84.90108}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8796079604583010922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604583010920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8796079604583010923}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1395433711}
+        m_MethodName: deactivate_WorldSpace_Canvas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 779233958}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: leftpulmonaryveins
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8796079604583010923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604583010920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &8796079604583010924
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8796079604583010920}
+  m_CullTransparentMesh: 0
